@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 /**
  * Interface for the CKFinder authentication service.
  */
-interface AuthenticationInterface extends ContainerAwareInterface
+interface AuthenticationInterface
 {
     /**
      * @return bool `true` if the current user was successfully authenticated within CKFinder.

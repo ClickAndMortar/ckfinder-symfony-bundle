@@ -44,7 +44,7 @@ class VariableArrayNode extends VariableNode
     /**
      * {@inheritdoc}
      */
-    protected function validateType($value)
+    protected function validateType(mixed $value): void
     {
         if (!is_array($value)) {
             $ex = new InvalidTypeException(sprintf(
